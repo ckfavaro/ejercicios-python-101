@@ -5,7 +5,7 @@ de los parámetros pasados a y b.
 
 
 def suma(a, b):
-    pass
+    return a + b
 
 
 # ------------------------------------------------------------------------
@@ -17,7 +17,6 @@ def suma(a, b):
 #   continuacion es falso.
 # Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
 #   crear un "pull request" y solicitar revision de un tercero.
-
 assert suma(2, 6) == 8
 assert suma(3, 3) == 6
 
