@@ -5,7 +5,8 @@ segun el "nombre" (string) que se pasa como parametro.
 
 
 def hola(nombre):
-    pass
+    return f'Hola {nombre}'
+
 
 # ------------------------------------------------------------------------
 # NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
@@ -16,6 +17,7 @@ def hola(nombre):
 #   continuacion es falso.
 # Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
 #   crear un "pull request" y solicitar revision de un tercero.
+
 
 assert hola("Juan") == "Hola Juan"
 assert hola("Pedro") == "Hola Pedro"
